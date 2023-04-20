@@ -1,3 +1,5 @@
+@import './_header.css';
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,18 @@
   font-family: 'Inter', sans-serif;
 }
 
-body {
+/* var переменные */
+:root {
+  --main-color: #F1385D;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* body {
   background-color: #000000;
 }
 
@@ -217,4 +230,4 @@ input::placeholder {
 .references-item a {
   text-decoration: none;
   color: #F1385D;
-}
+} */
