@@ -1,0 +1,40 @@
+.search {
+  flex: 7;
+}
+
+.search-wrapper {
+  max-width: 935px;
+  width: 100%;
+  max-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  border: 1px solid rgba(113, 113, 113, 0.7);
+  padding: 24px 16px;
+}
+
+.search__title {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: var(--black-color);
+  border-right: 1px solid rgba(113, 113, 113, 0.7);
+  padding-right: 10px;
+  margin-right: 20px;
+}
+
+.search-input {
+  /* разделить контейнер на 12 частей и выделить столько-то из них для этого элемента*/
+  flex: 11;
+  border: none;
+  outline: none;
+}
+
+.search-input::placeholder {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
