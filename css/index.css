@@ -2,6 +2,7 @@
 @import './_search.css';
 @import './_sorting.css';
 @import './_searchAndSort.css';
+@import './_modal.css';
 
 * {
   margin: 0;
@@ -17,6 +18,7 @@
   --secondary-color: #717171;
   --white-color: #FFFFFF;
   --btn-main-bg: #000000;
+  --input-border-color: #A6BCDA;
 }
 
 .container {

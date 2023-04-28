@@ -1,3 +1,5 @@
+import { modalCreate } from "./modalCreate.js"
+
 export const Header = () => {
   const header = document.createElement('header') //создаём тег элемента и кладем в преременную
   const container = document.createElement('div')
@@ -6,6 +8,9 @@ export const Header = () => {
   const logoImg = document.createElement('img')
   const createImg = document.createElement('div')
   const createImgElement = document.createElement('img')
+
+  // добавить функцию "слушатель событий(само событие, callback функция без скобочек)" (это свойство побочным эффектом(в этом случае при клике) вызывает новую функцию)
+  createImgElement.addEventListener('click', modalCreate)
 
   // добавление атрибутов
   header.classList.add('header')
